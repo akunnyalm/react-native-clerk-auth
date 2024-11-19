@@ -61,7 +61,7 @@ const login = () => {
                 <TextInput placeholder="password" value={password} onChangeText={setPassword} secureTextEntry style={styles.inputField} />
                 <View style={{height:20}} />
 
-                {/* <Button onPress={onSignInPress} title="Login" color={colors.primary}></Button> */}
+                
 
                  <Pressable
                         onPress={onSignInPress}
